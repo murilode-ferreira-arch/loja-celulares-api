@@ -1,4 +1,3 @@
-import 'express' 
 
 celularRouter.get("/".async (req,res) => {
 const:celular = await celularService.getAll();
